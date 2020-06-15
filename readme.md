@@ -30,12 +30,12 @@ Once you have downloaded the zip file, extract it somewhere. You will see two fi
 To use the config file, copy the `config.base.yaml` to `config.yaml` and set the values appropriately. Make sure you put your own value inbetween the `""`, if you don't the program might not be able to read it.
 There are multiple options in the config file, here you will find a list with what they all mean and where to find them.
 
- - Cookies -> user_id: This is the id you find in the address bar after the `/profile-` when you are on your own profile page. Alternativly, you can find it in your cookies, which I will explain how to see in the next bulletpoint.
- - Cookies -> user_hash: You need to get this value from your cookies, this might sound a bit intimidating but it's really easy if you know how. First of all, find a browser extention that let's you see (and edit) your cookies, I would recommend "[EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)", it's free and availible on Chrome and Opera. Once you have inistalled it, go to onrain and click the icon in the top right of your screen. Then, look for the `cored9e2user_hash` name, click it and copy the contents into this field!
- - last_known_good: This should be the number of the last known good account, this is so accounts that are deleted don't mess up the bot like they normally do. At the time of writing the highest known account id is ~1000, so that is the default value in this file.
- - start_number: This is the id of the first account you want the bot to try and befriend, this should be set to the same number as it was at the moment you closed the bot to avoid spamming the server with unnecessary requests and to avoid wasting your own time.
+ - **Cookies -> user_id:** This is the id you find in the address bar after the `/profile-` when you are on your own profile page. Alternativly, you can find it in your cookies, which I will explain how to see in the next bulletpoint.
+ - **Cookies -> user_hash:** You need to get this value from your cookies, this might sound a bit intimidating but it's really easy if you know how. First of all, find a browser extention that let's you see (and edit) your cookies, I would recommend "[EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)", it's free and availible on Chrome and Opera. Once you have inistalled it, go to onrain and click the icon in the top right of your screen. Then, look for the `cored9e2user_hash` name, click it and copy the contents into this field!
+ - **last_known_good:** This should be the number of the last known good account, this is so accounts that are deleted don't mess up the bot like they normally do. At the time of writing the highest known account id is ~1000, so that is the default value in this file.
+ - **start_number:** This is the id of the first account you want the bot to try and befriend, this should be set to the same number as it was at the moment you closed the bot to avoid spamming the server with unnecessary requests and to avoid wasting your own time.
 
-## Configuration
+## F.A.Q.
   
   
 
