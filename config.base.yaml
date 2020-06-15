@@ -1,0 +1,7 @@
+# DO NOT CHANGE THE FORMATTING IN THIS FILE, THAT MIGHT BREAK IT!
+# (unless you are also editing the source code ofc)
+cookies:
+  user_id: "" # This should be your cookie with the user id.
+  user_hash: "" # This should be your cookie with the user hash.
+last_known_good: 990 # You can keep this as default, read the readme for more info about this.
+start_number: 1 # You need to change this if you ever restart the program, read the readme for more info.
