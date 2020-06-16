@@ -15,7 +15,10 @@ static MSG_LOGIN_REQ: &str = "tb_show('Sign in', $.ajaxBox('user.login', 'height
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
     println!("Starting up...");
-    let file_content = fs::read_to_string("config.yaml").unwrap();
+    let file_content = match fs::read_to_string("config.yaml"){
+        Ok(file_content) => file_content,
+        Err(_) => {print_and_pause("Error reading from config file, make sure you have renamed it and it is placed in the same folder!"); panic!()}
+    };
     let config_o = match YamlLoader::load_from_str(&file_content) {
         Ok(config_o) => config_o,
         Err(why) => {let cfg_err = format!("Error when reading config file: {}", why); print_and_pause(&cfg_err); panic!()},

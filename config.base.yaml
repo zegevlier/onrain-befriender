@@ -3,5 +3,5 @@
 cookies:
   user_id: "" # This should be your cookie with the user id.
   user_hash: "" # This should be your cookie with the user hash.
-last_known_good: 990 # You can keep this as default, read the readme for more info about this.
+last_known_good: 1032 # You can keep this as default, read the readme for more info about this.
 start_number: 1 # You need to change this if you ever restart the program, read the readme for more info.
